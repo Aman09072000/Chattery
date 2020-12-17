@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Chatter</string>
+    <string name="app_name">Chattery</string>
     <string name="sign_out">Sign Out</string>
     <string name="send_button_label">Send</string>
     <string name="News">News</string>
