@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTitle"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.google.firebase.and.chatter.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/feature_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorTitle"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/Corona_icon"
+
+                android:layout_width="40dp"
+                android:layout_height="36dp"
+                android:background="@drawable/corona" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corona" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/News_icon"
+
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/news" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+
+            <ImageButton
+android:onClick="calculator"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/calcu"
+                android:baselineAligned="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcul" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/Alert_icon"
+                android:onClick="alert"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/alerts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+android:onClick="mail"
+                android:layout_marginLeft="3dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/mail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MailUs" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/feature_bar"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:background="#0E0D0E"
+        android:layout_height="5dp"/>
+
+<ListView
+android:divider="@android:color/transparent"
+android:id="@+id/messageListView"
+    android:background="@color/colorTitle"
+android:layout_above="@+id/linearLayout"
+android:layout_height="match_parent"
+android:layout_marginTop="80dp"
+android:layout_width="match_parent"
+android:stackFromBottom="true"
+android:transcriptMode="alwaysScroll"
+tools:listitem="@layout/item_message"
+    />
+
+<LinearLayout
+android:id="@+id/linearLayout"
+    android:background="@color/colorTitle"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+android:orientation="horizontal">
+
+<ImageButton
+    android:background="@android:drawable/ic_menu_gallery"
+    android:id="@+id/photoPickerButton"
+    android:layout_height="36dp"
+    android:layout_width="36dp" />
+
+<EditText
+    android:id="@+id/messageEditText"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_width="0dp" />
+
+<Button
+    android:enabled="false"
+    android:id="@+id/sendButton"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="@string/send_button_label" />
+
+</LinearLayout>
+
+<ProgressBar
+style="?android:attr/progressBarStyleLarge"
+android:id="@+id/progressBar"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content" /></RelativeLayout>
