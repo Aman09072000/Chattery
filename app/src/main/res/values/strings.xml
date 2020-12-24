@@ -2,6 +2,10 @@
     <string name="app_name">Chattery</string>
     <string name="sign_out">Sign Out</string>
     <string name="send_button_label">Send</string>
+
+    <string name="icon_info">Red folded newspaper icon</string>
+    <string name="no_data">No articles found</string>
+    <string name="no_internet_connection_found">no internet found</string>
     <string name="News">News</string>
     <string name="title_activity_corona">Corona</string>
     <!-- Strings used for fragments for navigation -->

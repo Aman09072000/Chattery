@@ -16,4 +16,12 @@
         <item name="android:textColor">@color/colorTitle</item>
 
     </style>
+    <style name="Date">date</style>
+
+    <style name="Section">section</style>
+
+    <style name="Title">title</style>
+
+    <style name="Author">author</style>
+
 </resources>
