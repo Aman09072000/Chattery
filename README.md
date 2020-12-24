@@ -17,7 +17,7 @@ It is App which is not like normal chat App it has various feature by which user
 5 - put block request for any user.
 6 - directly communicate with Admin
 7 - Get Alert of Earthquake and Tsunami and get details of recent earthquake of world get data by world greatest Earthquake report website USGC ( "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson" )
-8 - Get Daily Breaking News and Read News in Details also.
+8 - Get Daily Breaking News by website( "https://content.guardianapis.com" ).
 
 # Technology used -
 
