@@ -16,7 +16,7 @@ It is App which is not like normal chat App it has various feature by which user
 4 - get updated Corona condition and track its current situation. get data by trusted website ( "https://covid2019-api.herokuapp.com/v2/current" )
 5 - put block request for any user.
 6 - directly communicate with Admin
-7 - Get Alert of Earthquake and Tsunami and get details of recent earthquake of world get data by world greatest Earthquake report website USGC website( "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson" )
+7 - Get Alert of Earthquake and Tsunami and get details of recent earthquake of world get data by world greatest Earthquake report website USGC( "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson" )
 8 - Get Daily Breaking News by website( "https://content.guardianapis.com" ).
 
 # Technology used -
